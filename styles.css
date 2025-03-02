@@ -76,6 +76,7 @@ ul {
 	color: #E5E7EB;
 	font-size: 18px;
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 
@@ -113,4 +114,82 @@ ul {
 	width: 98%;
 	height: 200px;
 	border: solid #3882F6 3px;
+}
+
+/*QUOTE PART*/
+
+.quote-background {
+	background-color: #E5E7EB;
+}
+
+.quote-content {
+	margin: 0 auto;
+	max-width: 600px;
+	font-size: 36px;
+	font-style: italic;
+	color: darkgray;
+	text-align: center;
+	padding: 75px 0;
+}
+
+.quote-content p {
+	margin: 5px;
+}
+
+.quote-content .author {
+	color: gray;
+	text-align: right;
+	font-size: 24px;
+}
+
+
+/*SIGN UP BLUE PART*/
+
+.sign-up {
+	background-color: #3882F6;
+	border-radius: 15px;
+	margin: 0 auto;
+	max-width: 70%;
+	padding: 32px 80px;
+	display: flex;
+}
+
+.sign-up p {
+	margin: 0;
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.bold {
+	font-weight: 900;
+	color: #F9FAF8;
+	font-size: 18px;
+}
+
+.sign-up-background {
+	margin: 0;
+	padding: 80px;
+}
+
+.right-button {
+	margin-left: auto;
+	border-radius: 15px;
+	padding: 5px 32px;
+	border: solid white 2px;
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: bold;
+	height: fit-content;
+	align-self: center;
+}
+
+/*FOOTER PART*/
+
+footer {
+	background-color: #1F2937;
+	padding: 32px;
+	color: #F9FAF8;
+	text-align: center;
 }
